@@ -1,0 +1,23 @@
+/* header.css */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff; /* Background color for the header */
+    color: white; /* Text color */
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Additional styles for the main content to ensure it doesn't overlap with the header */
+.main-content {
+    padding-top: 4rem; /* Adjust based on the height of your header */
+}

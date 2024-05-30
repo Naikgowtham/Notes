@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import express from "express";
-import bodyParser from "body-parser";
+
+import Footer from './components/footer';
+import Header from './components/header';
+import Login from './components/login';
 
 function App() {
-  return (
-    
+  return (<div>
+    <Header></Header>
+    <Login></Login>
+    <Footer></Footer>
+    </div>
   );
 }
 
